@@ -8,4 +8,5 @@ ssh-keygen -t ecdsa -b 521;
 
 brew install ansible && \
 ansible-galaxy collection install community.general && \
-ansible-playbook playbooks/main.yml --check --extra-vars "@bootstrap.yml";
+ansible-playbook playbooks/macos.yml && \
+ansible-playbook playbooks/main.yml --extra-vars "@bootstrap.yml";
