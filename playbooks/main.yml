@@ -1,0 +1,19 @@
+- hosts: 127.0.0.1
+  strategy: free
+  tasks:
+    - name: Create folders
+      ansible.builtin.file:
+        path: "{{ item }}"
+        state: directory
+        mode: "0755"
+      loop: "{{ folders }}"
+    - name: Install homebrew packages
+      community.general.homebrew:
+        name: "{{ item }}"
+        state: present
+      loop: "{{ packages }}"
+    - name: Install cask apps
+      community.general.homebrew_cask:
+        name: "{{ item }}"
+        state: present
+      loop: "{{ casks }}"

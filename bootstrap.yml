@@ -2,11 +2,9 @@
 # Main Bootstrap
 #
 
-git:
-  -
-
 packages:
   - zsh
+  - vim
   - antigen
   - git
   - doctl
@@ -16,23 +14,35 @@ packages:
   - ffmpeg
   - youtube-dl
   - tree
+  - rclone
 
 casks:
+  - bitwarden
   - visual-studio-code
   - firefox
+  - homebrew/cask-versions/firefox-developer-edition
   - google-chrome
+  - alfred
+  - google-drive
 
   - kitty
   - sourcetree
   - flux
   - stats
-  - vlc
   - amethyst
+  - docker
 
   - joplin
   - element
   - discord
   - whatsapp
+
+  - vlc
+  - spotify
+  - openemu
+  - stremio
+  - transmission
+  - steam
 
 folders:
   - /Users/gvido/Projects
