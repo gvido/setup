@@ -1,0 +1,42 @@
+#
+# Main Bootstrap
+#
+
+git:
+  -
+
+packages:
+  - zsh
+  - antigen
+  - git
+  - doctl
+  - wget
+  - helm
+  - kubernetes-cli
+  - ffmpeg
+  - youtube-dl
+  - tree
+
+casks:
+  - visual-studio-code
+  - firefox
+  - google-chrome
+
+  - kitty
+  - sourcetree
+  - flux
+  - stats
+  - vlc
+  - amethyst
+
+  - joplin
+  - element
+  - discord
+  - whatsapp
+
+folders:
+  - /Users/gvido/Projects
+  - /Users/gvido/Workspace
+  - /Users/gvido/Media
+  - /Users/gvido/Sync
+  - /Users/gvido/Inbox

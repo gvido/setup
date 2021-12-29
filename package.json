@@ -1,0 +1,9 @@
+{
+  "name": "@gvido/setup",
+  "version": "0.1.0",
+  "description": "Bootstrap macos",
+  "scripts": {},
+  "author": "Gvido Glazers",
+  "dependencies": {},
+  "devDependencies": {}
+}
