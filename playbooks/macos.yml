@@ -1,8 +1,8 @@
 - hosts: 127.0.0.1
   name: Tools
+  become: yes
   tasks:
     - name: Macos Defaults
-      become: yes
       ansible.builtin.shell: "{{ item }}"
       loop:
         # Disable the sound effects on boot
